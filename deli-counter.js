@@ -15,9 +15,9 @@
 Using For, Push, and logging it to the Console. 
 */
 
+const katzDeli = ["Ada", "Grace", "Kent"];
 
-
-function takeANum(array, name){
+function takeANumber(array, name){
     array.push(name)
     return (`Welcome, ${name}. You are number ${array.length} in line. Thank You for your order, please return soon!`)
 }
@@ -61,8 +61,8 @@ console.log('')
 console.log('')
 }
 
-// 2. Example Usage
-const katzDeli = []
+/* 2. Example Usage
+
 
 // const katzDeli = []
 
@@ -95,3 +95,4 @@ console.log(nowServing(katzDeli))
 
 console.log(line(katzDeli))
 // line(katzDeli) //=> "The line is currently: 1. Kent 2. Matz"
+*/
